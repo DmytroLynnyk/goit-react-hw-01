@@ -1,0 +1,29 @@
+.item {
+    margin: 0 auto;
+
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.avatar {
+padding: 10px;
+}
+
+.name {
+font-size: larger;
+font-weight: 500;
+}
+
+.status, .name {
+    margin-bottom: 8px;
+}
+
+.onLine {
+    composes: status;
+    color: green;
+}
+
+.offLine {
+    composes: status;
+    color: red;
+}
