@@ -18,12 +18,12 @@ font-weight: 500;
     margin-bottom: 8px;
 }
 
-.onLine {
+.online {
     composes: status;
     color: green;
 }
 
-.offLine {
+.offline {
     composes: status;
     color: red;
 }

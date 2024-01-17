@@ -1,7 +1,7 @@
 import css from './FriendListItem.module.css'
 
 export const FriendListItem = ({ friend: { avatar, name, isOnline} }) => {
-    const statusClass = isOnline ? css.onLine : css.offLine;
+    const statusClass = isOnline ? css.online : css.offline;
 
     return (
         <div className={css.item}>
