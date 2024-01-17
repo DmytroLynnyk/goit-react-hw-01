@@ -17,6 +17,9 @@ td {
     padding-left: 40px;
 }
 
+td:first-child {
+text-transform: capitalize;}
+
 tr:nth-last-child(even) {
     background-color: lightgray;
 }
